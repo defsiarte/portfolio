@@ -57,6 +57,11 @@ body{
 img{
     width: 50%;
     border-radius: 15px;
+    object-fit: contain;
+}
+.comp{
+    width: 25%;
+    padding: 5px;
 }
 .socIcon{
   width: 30px;  
@@ -85,10 +90,66 @@ li{
 }
 
 /* links */
-a:visited, active, unvisited{
+a:visited, unvisited, active{
     color: #006838;
 }
 a:hover{
     color: #90C640;
 }
 
+/* INPUT BAR THING*/
+#contBox{
+
+}
+form{
+    background-color: #006838;
+    border-radius: 15px;
+    width: 90%;
+    padding: 10px;
+}
+label{
+    font-style: bold;
+    font-size: 30px;
+    color: #F2D844
+}
+input[type=text]{
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #FBF9CF;
+    font-family: "sauna-new", sans-serif;
+    text-align: center;
+    width: 50%;
+    height: 30px;
+    border: none;
+    color: #A5A38C;
+
+}
+input[type=submit]{
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #90C640;
+    font-family: "sauna-new", sans-serif;
+    width: 30%;
+    height: 30%;
+    border: none;
+    color: #F2D844;
+    
+
+
+}
+input[type=submit]:hover{
+        background-color: #006838;
+    
+
+}
+textarea{
+    font-family: "sauna-new", sans-serif;
+    background-color: #FBF9CF;
+    width: 60%;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    color: #A5A38C;
+    font-size: 24px;
+
+}
