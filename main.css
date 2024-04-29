@@ -48,12 +48,15 @@ body{
       grid-area: footer;
     background-color:#006838;
     padding: 10px;
-    font-size: 30px;    color:#F2D844;   
+    font-size: 30px; 
+    width: 100%;
+    color:#F2D844;   
     /*  TEXT STUFF*/
     font-family: "sauna-new", sans-serif;
     font-style: normal;
     
 }
+/* images*/
 img{
     width: 50%;
     border-radius: 15px;
@@ -69,7 +72,24 @@ img{
     padding: 5px;
 
 }
+.tinies{
+    width: 30%;
+}
+.funny{
+    align-content: right;
+    margin-left: 300px;
+   width: 300px; 
+   height: 450px;; 
+    z-index: -1;
+ background:url("./images/me_front.png") no-repeat;
+   
+}
+.funny:hover{
+    background:url("./images/me_back.png") no-repeat;
+    content:url("./images/circ_blu.png") no-repeat;
+}
 
+/*grid*/
 .grid-container{
     display: grid;
     grid-template-areas: 
@@ -90,7 +110,7 @@ li{
 }
 
 /* links */
-a:visited, unvisited, active{
+a, :visited, unvisited, active{
     color: #006838;
 }
 a:hover{
